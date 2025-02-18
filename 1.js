@@ -18,3 +18,13 @@ document.querySelectorAll('#about').forEach(anchor => {
         }
     });
 }); 
+document.querySelectorAll('#cm').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ `<a>`   
+        const targetElement = document.querySelector('#cm_fb');
+
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt
+        }
+    });
+}); 
