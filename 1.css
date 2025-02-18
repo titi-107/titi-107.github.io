@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0;}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    padding: 10px;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+}
+.header a.logo{
+    text-align: center;
+    width: 100%;
+}
+.header a img{
+    height: 80px;
+    width: 80px;
+}
+li.nav-item {
+    float: none!important;
+    display: inline;
+}
+li.nav-item a{
+    color: rgb(36, 37, 37);
+    padding-right: 35px;
+}
+.header ul.menu {
+    text-align: center;
+    background: white;
+    width: 100%;
+    padding: 27px 0px;
+    /* border-bottom: 1px solid #d8d8d8; */
+}
+/* Hết Header */
+
+.About{
+    display: grid;
+    place-items: center; 
+    text-align: center;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    background: #e9585f;
+    margin-top: 100px;
+    padding: 10% 0;
+}
+
+.About img{
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.About h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    width: 46%;
+    margin-top: 0px;
+}
+.About p{
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 24px;
+    width: 45%;
+    margin-top: 0px;
+}
+
+.introduce{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.introduce .row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.introduce .row h1{
+    text-transform: uppercase;
+}
+.introduce .row .info {
+    margin-top: 50px;
+}
+.introduce .row .detail{
+    margin-top: 20px;
+}
+.introduce .row .detail h4{
+    color: #e9585f;
+}
+.introduce .row .detail h5{
+    color: #e9585f;
+}
